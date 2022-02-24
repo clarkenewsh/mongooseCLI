@@ -11,6 +11,10 @@ const movieSchema = new mongoose.Schema({
         type: String,
         default: "Not specified"
     },
+    rating: {
+        type: String,
+        default: "Not rated yet"
+    },
 });
 
 // build Movie model to store movie schema structure
